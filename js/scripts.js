@@ -37,6 +37,13 @@ $(function() {
       }
 
     }
+/////////////// Find e's in string by class name /////////////////////
+    // var myClass = document.getElementsByClassName("invalid-feedback");
+    //
+    // for(let i=0; i<myClass.length; i++) {
+    //   console.log(myClass[i].innerHTML.match(/[e]/g).length);
+    // }
+    // console.log(myClass);
 
     event.preventDefault();
   });
