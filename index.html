@@ -9,24 +9,33 @@
   <body>
     <h1>Triangle Tracker</h1>
     <div class="container">
-      <form class="triangle" action="index.html" method="post">
-        <h4>Side 1:</h4>
-        <label for="side1">
-          <input type="number" name="side1" value="" id="side1">
-        </label>
-        <br>
-        <h4>Side 2:</h4>
-        <label for="side2">
-          <input type="number" name="side2" value="" id="side2">
-        </label>
-        <br>
-        <h4>Side 3:</h4>
-        <label for="side3">
-          <input type="number" name="side3" value="" id="side3">
-        </label>
+      <div class="row">
+        <div class="col-md-8">
+          <form class="triangle" action="index.html" method="post">
+            <h4>Side 1:</h4>
+            <label for="side1">
+              <input type="number" name="side1" value="" id="side1">
+            </label>
+            <br>
+            <h4>Side 2:</h4>
+            <label for="side2">
+              <input type="number" name="side2" value="" id="side2">
+            </label>
+            <br>
+            <h4>Side 3:</h4>
+            <label for="side3">
+              <input type="number" name="side3" value="" id="side3">
+            </label>
 
-      </form>
+            <button type="submit" name="button" id="submit">Submit</button>
 
+          </form>
+        </div>
+        <div class="col-md-4">
+          <p id="output"></p>
+        </div>
+
+      </div>
 
     </div>
 
