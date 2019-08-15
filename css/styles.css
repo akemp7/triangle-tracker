@@ -3,3 +3,21 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#equalateral {
+  width: 200px;
+  height: auto;
+  display: none;
+}
+
+#isosceles {
+  width: 200px;
+  height: auto;
+  display: none;
+}
+
+#scalene {
+  width: 200px;
+  height: auto;
+  display: none;
+}
