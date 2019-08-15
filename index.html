@@ -12,20 +12,36 @@
       <div class="row">
         <div class="col-md-8">
           <form class="triangle-sides" action="index.html" method="post">
-            <h4>Side 1:</h4>
-            <label for="side1">
-              <input type="number" name="side1" value="" id="side1">
-            </label>
+
+            <div>
+              <label for="validationServer01">Side1</label>
+              <input type="number" class="form-control" id="validationServer01" required>
+
+              <div class="invalid-feedback">
+                Please provide valid number.
+              </div>
+            </div>
+
             <br>
-            <h4>Side 2:</h4>
-            <label for="side2">
-              <input type="number" name="side2" value="" id="side2">
-            </label>
+
+            <div>
+              <label for="validationServer02">Side2</label>
+              <input type="number" class="form-control" id="validationServer02" required>
+
+              <div class="invalid-feedback">
+                Please provide valid number.
+              </div>
+            </div>
+
             <br>
-            <h4>Side 3:</h4>
-            <label for="side3">
-              <input type="number" name="side3" value="" id="side3">
-            </label>
+            <div>
+              <label for="validationServer03">Side3</label>
+              <input type="number" class="form-control" id="validationServer03" required>
+
+              <div class="invalid-feedback">
+                Please provide valid number.
+              </div>
+            </div>
 
             <button type="submit" name="button" id="submit">Submit</button>
 
